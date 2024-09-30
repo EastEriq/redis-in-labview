@@ -77,6 +77,14 @@
 					<Item Name="RPUSH.vi" Type="VI" URL="../Palette/Redis Commands/Lists/RPUSH.vi"/>
 					<Item Name="RPUSHX.vi" Type="VI" URL="../Palette/Redis Commands/Lists/RPUSHX.vi"/>
 				</Item>
+				<Item Name="Lua-scripts" Type="Folder">
+					<Item Name="EVAL.vi" Type="VI" URL="../Palette/Redis Commands/Lua-scripts/EVAL.vi"/>
+					<Item Name="EVALSHA.vi" Type="VI" URL="../Palette/Redis Commands/Lua-scripts/EVALSHA.vi"/>
+					<Item Name="SCRIPT_EXISTS.vi" Type="VI" URL="../Palette/Redis Commands/Lua-scripts/SCRIPT_EXISTS.vi"/>
+					<Item Name="SCRIPT_FLUSH.vi" Type="VI" URL="../Palette/Redis Commands/Lua-scripts/SCRIPT_FLUSH.vi"/>
+					<Item Name="SCRIPT_LOAD.vi" Type="VI" URL="../Palette/Redis Commands/Lua-scripts/SCRIPT_LOAD.vi"/>
+					<Item Name="script-Commands.vi" Type="VI" URL="../Palette/Redis Commands/Lua-scripts/script-Commands.vi"/>
+				</Item>
 				<Item Name="Pub-Sub" Type="Folder">
 					<Item Name="PSUBSCRIBE.vi" Type="VI" URL="../Palette/Redis Commands/Pub-Sub/PSUBSCRIBE.vi"/>
 					<Item Name="PUBLISH.vi" Type="VI" URL="../Palette/Redis Commands/Pub-Sub/PUBLISH.vi"/>
@@ -210,6 +218,7 @@
 				<Item Name="Type Descriptor.ctl" Type="VI" URL="../SubVIs/From OpenG-VariantDataLibrary/Type Descriptor.ctl"/>
 			</Item>
 			<Item Name="Convert_From_Variant.vi" Type="VI" URL="../SubVIs/Convert_From_Variant.vi"/>
+			<Item Name="QuoteUnquotedString.vi" Type="VI" URL="../SubVIs/QuoteUnquotedString.vi"/>
 			<Item Name="RW_Redis.vi" Type="VI" URL="../SubVIs/RW_Redis.vi"/>
 			<Item Name="Start_Server_Cmd.vi" Type="VI" URL="../SubVIs/Start_Server_Cmd.vi"/>
 			<Item Name="redis-in-LabVIEW.vi" Type="VI" URL="../SubVIs/redis-in-LabVIEW.vi"/>
@@ -218,7 +227,9 @@
 		<Item Name="Redis_Example1.vi" Type="VI" URL="../Redis_Example1.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
+				<Item Name="1D String Array to Delimited String.vi" Type="VI" URL="/&lt;vilib&gt;/AdvancedString/1D String Array to Delimited String.vi"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
+				<Item Name="Space Constant.vi" Type="VI" URL="/&lt;vilib&gt;/dlg_ctls.llb/Space Constant.vi"/>
 				<Item Name="System Exec.vi" Type="VI" URL="/&lt;vilib&gt;/Platform/system.llb/System Exec.vi"/>
 			</Item>
 		</Item>
